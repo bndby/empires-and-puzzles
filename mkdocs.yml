@@ -1,0 +1,56 @@
+site_name: Empires & Puzzles
+site_url: https://xsltdev.ru/
+site_description: Empires & Puzzles
+site_author: Бондаренко Юрий
+copyright: (С) 2019, Empires & Puzzles
+
+repo_name: 'Репозиторий'
+repo_url: 'https://github.com/bndby/empires-and-puzzles'
+
+theme:
+    name: 'material'
+    # name: null
+    # custom_dir: 'theme/material'
+    palette:
+        primary: 'indigo'
+        accent: 'indigo'
+    language: 'ru'
+    #    favicon: 'assets/images/favicon.ico'
+    feature:
+        tabs: true
+    font:
+        text: 'Roboto'
+        code: 'Roboto Mono'
+    logo:
+        icon: 'code'
+
+extra:
+    #    social:
+    #        - type: 'github'
+    #          link: 'https://github.com/bndby'
+    #        - type: 'linkedin'
+    #          link: 'https://www.linkedin.com/in/bndby/'
+    search:
+        language: 'en, ru'
+
+#google_analytics:
+#    - 'UA-34215161-1'
+#    - 'auto'
+
+markdown_extensions:
+    - admonition
+    - codehilite:
+          guess_lang: false
+          linenums: false
+    - toc:
+          permalink: true
+    - pymdownx.extra
+    - pymdownx.details
+
+plugins:
+    - search
+    - awesome-pages
+# extra_javascript:
+#    - 'https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js'
+# extra_css:
+#    - '/assets/css/style.css'
