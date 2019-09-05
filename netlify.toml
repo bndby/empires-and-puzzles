@@ -2,8 +2,8 @@
 command = "mkdocs build"
 publish = "site/"
 
-[[redirects]]
-  from = "/test/*"
-  to = "https://test-redirect.netlify.com/test/*"
-  status = 200
-  force = true # Ensure that we always redirect
+#[[redirects]]
+#  from = "/test/*"
+#  to = "https://test-redirect.netlify.com/test/*"
+#  status = 200
+#  force = true # Ensure that we always redirect
