@@ -1,8 +1,3 @@
 [build]
 command = "mkdocs build"
 publish = "site/"
-
-[[redirects]]
-from="/test"
-to="https://test-redirect.netlify.com"
-status="200"
